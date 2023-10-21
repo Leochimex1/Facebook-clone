@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leobook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2a0d9ad5fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <div class="topnav">
+                <a href="Social.html" class="leobook">Leobook</a>
+            </div>
+            <!----<img src="image/logo.jpg" class="logo" alt="">---->
+            <ul>
+                <li><img src="IMAGE/Notification 1.png" alt=""></li>
+                <li><img src="IMAGE/inbox 1.png" alt=""></li>
+                <li><img src="IMAGE/video.png" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="nav-right"></div>
+
+            <div class="search-box">
+                <img src="image/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="SettingsMenuToggle()">
+                <img src="image/profile-pic.png" alt=""> 
+            </div>
+            <!------------dropdown-settings-menu----------->
+            <div class="settings-menu">
+
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+                
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="image/profile-pic.png" alt="">
+                        <div>
+                            <p>Steve Rand</p>
+                            <a href="profile.html">see your profile</a>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="user-profile">
+                        <img src="image/comment.png" alt="">
+                        <div>
+                            <p>Give feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="settings-links">
+                        <img src="image/settings.png" class="settings-icon" alt="">
+                        <a href="#">Settings & Privacy<img src="IMAGE/arrow.png" 
+                        width="10px" alt=""></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="image/Help & Support.png" class="settings-icon" alt="">
+                        <a href="#">Help & Support <img src="IMAGE/arrow.png" 
+                        width="10px" alt=""></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="image/Display & Accessibility.png" class="settings-icon" alt="">
+                        <a href="#">Display & Accessibility <img src="IMAGE/arrow.png" 
+                        width="10px" alt=""></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="image/logout.png" class="settings-icon" alt="">
+                        <a href="#">Logout <img src="IMAGE/arrow.png" 
+                        width="10px" alt=""></a>
+                    </div>
+
+
+                </div>
+            </div>
+            
+
+    </nav>
+
+    <div class="container">
+     <!---left-sidebar---------- -->
+    
+
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="image/News.webp" alt="">Latest News</a>
+                <a href="#"><img src="image/friends.png" alt="">Friends</a>
+                <a href="#"><img src="image/group.png.png" alt="">Group</a>
+                <a href="#"><img src="image/marketplace.png.png" alt="">Marketplace</a>
+                <a href="#"><img src="image/watch.png.png" alt="">Watch</a>
+                <a href="#">See More</a>
+
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="image/web-dev-1.jpeg" alt="">web Developers</a>
+                <a href="#"><img src="image/web-design-course.jpeg" alt="">web Design Course</a>
+                <a href="#"><img src="image/full-stack.jpeg" alt="">Full Stack Development</a>
+                <a href="#"><img src="image/web-expert.jpeg" alt="">web Experts</a>
+            </div>
+        </div>
+        <!------main-content------- -->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="IMAGE/story.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="IMAGE/Shortcut-1.jpg" alt="">
+                    <p>Chimezie</p>
+                </div>
+                <div class="story story3">
+                    <img src="IMAGE/Shortcut-2.jpg" alt="">
+                    <p>Leonard</p>
+                </div>
+                <div class="story story4">
+                    <img src="IMAGE/Shortcut-3.jpg" alt="">
+                    <p>Dan</p>
+                </div>
+                <div class="story story5">
+                    <img src="IMAGE/Shortcut-4.jpg" alt="">
+                    <p>Peter</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="image/profile-pic.png" alt="">
+                    <div>
+                        <p>Steve Rand</p>
+                        <small>public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Chimezie?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><i class="fa-solid fa-video"></i></i> Live Video</a>
+                        <a href="#"><i class="fa-solid fa-camera"></i> Photo/Video</a>
+                        <a href="#"><i class="fa-regular fa-face-laugh-beam"></i> Feeling/Activity</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/profile-pic.png" alt="">
+                        <div>
+                            <p>Steve Rand</p>
+                            <span>July 12 2023, 15:18 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+                
+                <p class="post-text">Subscribe <span>@Leobook clone Tutorials</span> for Front End Website Development <a href="#Leobook">#Leobook</a>
+                    <a href="#YoutubeChannel">#YoutubeChannel</a></p>
+                    <img src="image/images (9).jpeg" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="Activity-icon">
+                            <div><img src="image/like.png" alt=""> 120</div>
+                            <div><img src="image/comment.png" alt=""> 100</div>
+                            <div><img src="image/share.png" alt=""> 40</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/profile-pic.png" alt="">
+                        <div>
+                            <p>Steve Rand</p>
+                            <span>July 12 2023, 15:18 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+                
+                <p class="post-text">Subscribe Like and share this project with your friends and tag <span>@Leobook</span> page on 
+                    your post, Ask your doubts in the comments <a href="#">#Leobook</a>
+                    <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/images (13).jpeg" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="Activity-icon">
+                            <div><img src="image/like-1.png" alt=""> 127</div>
+                            <div><img src="image/comment.png" alt=""> 103</div>
+                            <div><img src="image/share.png" alt=""> 48</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/profile-pic.png" alt="">
+                        <div>
+                            <p>Steve Rand</p>
+                            <span>July 13 2023, 17:35 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+                
+                <p class="post-text">Subscribe Like and share this project with your friends and tag <span>@Leobook</span> page on 
+                    your post, Ask your doubts in the comments <a href="#">#Leobook</a>
+                    <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/images (15).jpeg" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="Activity-icon">
+                            <div><img src="image/like-1.png" alt=""> 127</div>
+                            <div><img src="image/comment.png" alt=""> 103</div>
+                            <div><img src="image/share.png" alt=""> 48</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/profile-pic.png" alt="">
+                        <div>
+                            <p>Steve Rand</p>
+                            <span>July 14 2023, 17:35 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+                
+                <p class="post-text">Subscribe Like and share this project with your friends and tag <span>@Leobook</span> page on 
+                    your post, Ask your doubts in the comments <a href="#">#Leobook</a>
+                    <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/images (10).jpeg" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="Activity-icon">
+                            <div><img src="image/like-1.png" alt=""> 127</div>
+                            <div><img src="image/comment.png" alt=""> 103</div>
+                            <div><img src="image/share.png" alt=""> 48</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/profile-pic.png" alt="">
+                        <div>
+                            <p>Steve Rand</p>
+                            <span>July 15 2023, 17:35 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+                
+                <p class="post-text">Subscribe Like and share this project with your friends and tag <span>@Leobook</span> page on 
+                    your post, Ask your doubts in the comments <a href="#">#Leobook</a>
+                    <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/images (12).jpeg" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="Activity-icon">
+                            <div><img src="image/like-1.png" alt=""> 127</div>
+                            <div><img src="image/comment.png" alt=""> 103</div>
+                            <div><img src="image/share.png" alt=""> 48</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/profile-pic.png" alt="">
+                        <div>
+                            <p>Steve Rand</p>
+                            <span>July 16 2023, 17:35 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+                
+                <p class="post-text">Subscribe Like and share this project with your friends and tag <span>@Leobook</span> page on 
+                    your post, Ask your doubts in the comments <a href="#">#Leobook</a>
+                    <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/images (14).jpeg" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="Activity-icon">
+                            <div><img src="image/like-1.png" alt=""> 127</div>
+                            <div><img src="image/comment.png" alt=""> 103</div>
+                            <div><img src="image/share.png" alt=""> 48</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+        <!---right-sidebar---------- -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><img src="" alt=""> <i class="fa-solid fa-location-dot"></i>Leochimex Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><img src="" alt=""> <i class="fa-solid fa-location-dot"></i>Leochimex Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="IMAGE/Advertisement-1.jpeg" alt="" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            
+            <div class="online-list">
+                <div class="online">
+                    <img src="IMAGE/member-5.jpg" alt="">
+                </div>
+                <p>Chimezie Peter</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="IMAGE/member-5.jpg" alt="">
+                </div>
+                <p>Chimezie Leonard</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="IMAGE/member-5.jpg" alt="">
+                </div>
+                <p>Chimezie Jason</p>
+            </div>
+
+        </div>
+    </div>
+
+<div class="footer">
+    <p>Copyright 2023 - Leobook clone project</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
